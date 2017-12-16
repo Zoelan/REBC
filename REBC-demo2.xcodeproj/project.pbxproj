@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A7639DB72F3BC6B60A34C50 /* libPods-REBC-demo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F3B713B49415AB94105E1F3 /* libPods-REBC-demo2.a */; };
+		C823578B1FD6ADB60014B913 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C823578A1FD6ADB60014B913 /* AppDelegate.m */; };
+		C82357911FD6ADB60014B913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C823578F1FD6ADB60014B913 /* Main.storyboard */; };
+		C82357931FD6ADB60014B913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C82357921FD6ADB60014B913 /* Assets.xcassets */; };
+		C82357961FD6ADB60014B913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C82357941FD6ADB60014B913 /* LaunchScreen.storyboard */; };
+		C82357991FD6ADB60014B913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C82357981FD6ADB60014B913 /* main.m */; };
+		C82357A31FD6ADB60014B913 /* REBC_demo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C82357A21FD6ADB60014B913 /* REBC_demo2Tests.m */; };
+		C82357AE1FD6ADB60014B913 /* REBC_demo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C82357AD1FD6ADB60014B913 /* REBC_demo2UITests.m */; };
+		C82357BD1FD6B3C10014B913 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82357BC1FD6B3C10014B913 /* TableViewController.m */; };
+		C82357C01FD6B6000014B913 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C82357BF1FD6B6000014B913 /* TableViewCell.m */; };
+		C82357C31FD6B6510014B913 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C82357C21FD6B6510014B913 /* Model.m */; };
+		C82357C61FD6BF900014B913 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C82357C51FD6BF900014B913 /* HeadView.m */; };
+		C82357C81FD912650014B913 /* res in Resources */ = {isa = PBXBuildFile; fileRef = C82357C71FD912650014B913 /* res */; };
+		C82357CC1FDEAEF40014B913 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C82357BC1FD6B3C10014B913 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C823579F1FD6ADB60014B913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C823577E1FD6ADB60014B913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82357851FD6ADB60014B913;
+			remoteInfo = "REBC-demo2";
+		};
+		C82357AA1FD6ADB60014B913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C823577E1FD6ADB60014B913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82357851FD6ADB60014B913;
+			remoteInfo = "REBC-demo2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F3B713B49415AB94105E1F3 /* libPods-REBC-demo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-REBC-demo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		980EA6D44DB24B0D1F6BA03C /* Pods-REBC-demo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REBC-demo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-REBC-demo2/Pods-REBC-demo2.release.xcconfig"; sourceTree = "<group>"; };
+		C82357861FD6ADB60014B913 /* REBC-demo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REBC-demo2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82357891FD6ADB60014B913 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C823578A1FD6ADB60014B913 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C82357901FD6ADB60014B913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C82357921FD6ADB60014B913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C82357951FD6ADB60014B913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C82357971FD6ADB60014B913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82357981FD6ADB60014B913 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C823579E1FD6ADB60014B913 /* REBC-demo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REBC-demo2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82357A21FD6ADB60014B913 /* REBC_demo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REBC_demo2Tests.m; sourceTree = "<group>"; };
+		C82357A41FD6ADB60014B913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82357A91FD6ADB60014B913 /* REBC-demo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REBC-demo2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C82357AD1FD6ADB60014B913 /* REBC_demo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = REBC_demo2UITests.m; sourceTree = "<group>"; };
+		C82357AF1FD6ADB60014B913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C82357BB1FD6B3C10014B913 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C82357BC1FD6B3C10014B913 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C82357BE1FD6B6000014B913 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C82357BF1FD6B6000014B913 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C82357C11FD6B6510014B913 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C82357C21FD6B6510014B913 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		C82357C41FD6BF900014B913 /* HeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		C82357C51FD6BF900014B913 /* HeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		C82357C71FD912650014B913 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; name = res; path = ../../FakeREBC/res; sourceTree = "<group>"; };
+		DC345FCACE059B616BDCFD6E /* Pods-REBC-demo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REBC-demo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-REBC-demo2/Pods-REBC-demo2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C82357831FD6ADB60014B913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7639DB72F3BC6B60A34C50 /* libPods-REBC-demo2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C823579B1FD6ADB60014B913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82357A61FD6ADB60014B913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833C13E704BF042998133F7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F3B713B49415AB94105E1F3 /* libPods-REBC-demo2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C823577D1FD6ADB60014B913 = {
+			isa = PBXGroup;
+			children = (
+				C82357881FD6ADB60014B913 /* REBC-demo2 */,
+				C82357A11FD6ADB60014B913 /* REBC-demo2Tests */,
+				C82357AC1FD6ADB60014B913 /* REBC-demo2UITests */,
+				C82357871FD6ADB60014B913 /* Products */,
+				DD0ACE3DCF42AD36F9CCAA37 /* Pods */,
+				833C13E704BF042998133F7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C82357871FD6ADB60014B913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C82357861FD6ADB60014B913 /* REBC-demo2.app */,
+				C823579E1FD6ADB60014B913 /* REBC-demo2Tests.xctest */,
+				C82357A91FD6ADB60014B913 /* REBC-demo2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C82357881FD6ADB60014B913 /* REBC-demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				C82357891FD6ADB60014B913 /* AppDelegate.h */,
+				C823578A1FD6ADB60014B913 /* AppDelegate.m */,
+				C82357C11FD6B6510014B913 /* Model.h */,
+				C82357C21FD6B6510014B913 /* Model.m */,
+				C82357BE1FD6B6000014B913 /* TableViewCell.h */,
+				C82357BF1FD6B6000014B913 /* TableViewCell.m */,
+				C82357C41FD6BF900014B913 /* HeadView.h */,
+				C82357C51FD6BF900014B913 /* HeadView.m */,
+				C82357BB1FD6B3C10014B913 /* TableViewController.h */,
+				C82357BC1FD6B3C10014B913 /* TableViewController.m */,
+				C823578F1FD6ADB60014B913 /* Main.storyboard */,
+				C82357921FD6ADB60014B913 /* Assets.xcassets */,
+				C82357941FD6ADB60014B913 /* LaunchScreen.storyboard */,
+				C82357971FD6ADB60014B913 /* Info.plist */,
+				C82357981FD6ADB60014B913 /* main.m */,
+				C82357C71FD912650014B913 /* res */,
+			);
+			path = "REBC-demo2";
+			sourceTree = "<group>";
+		};
+		C82357A11FD6ADB60014B913 /* REBC-demo2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C82357A21FD6ADB60014B913 /* REBC_demo2Tests.m */,
+				C82357A41FD6ADB60014B913 /* Info.plist */,
+			);
+			path = "REBC-demo2Tests";
+			sourceTree = "<group>";
+		};
+		C82357AC1FD6ADB60014B913 /* REBC-demo2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C82357AD1FD6ADB60014B913 /* REBC_demo2UITests.m */,
+				C82357AF1FD6ADB60014B913 /* Info.plist */,
+			);
+			path = "REBC-demo2UITests";
+			sourceTree = "<group>";
+		};
+		DD0ACE3DCF42AD36F9CCAA37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC345FCACE059B616BDCFD6E /* Pods-REBC-demo2.debug.xcconfig */,
+				980EA6D44DB24B0D1F6BA03C /* Pods-REBC-demo2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C82357851FD6ADB60014B913 /* REBC-demo2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82357B21FD6ADB60014B913 /* Build configuration list for PBXNativeTarget "REBC-demo2" */;
+			buildPhases = (
+				27A8BC367DCAD54B250CE825 /* [CP] Check Pods Manifest.lock */,
+				C82357821FD6ADB60014B913 /* Sources */,
+				C82357831FD6ADB60014B913 /* Frameworks */,
+				C82357841FD6ADB60014B913 /* Resources */,
+				AEBAE07120D1127742B6BA8A /* [CP] Embed Pods Frameworks */,
+				336CF8A50569ED936D066DDF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "REBC-demo2";
+			productName = "REBC-demo2";
+			productReference = C82357861FD6ADB60014B913 /* REBC-demo2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C823579D1FD6ADB60014B913 /* REBC-demo2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82357B51FD6ADB60014B913 /* Build configuration list for PBXNativeTarget "REBC-demo2Tests" */;
+			buildPhases = (
+				C823579A1FD6ADB60014B913 /* Sources */,
+				C823579B1FD6ADB60014B913 /* Frameworks */,
+				C823579C1FD6ADB60014B913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82357A01FD6ADB60014B913 /* PBXTargetDependency */,
+			);
+			name = "REBC-demo2Tests";
+			productName = "REBC-demo2Tests";
+			productReference = C823579E1FD6ADB60014B913 /* REBC-demo2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C82357A81FD6ADB60014B913 /* REBC-demo2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C82357B81FD6ADB60014B913 /* Build configuration list for PBXNativeTarget "REBC-demo2UITests" */;
+			buildPhases = (
+				C82357A51FD6ADB60014B913 /* Sources */,
+				C82357A61FD6ADB60014B913 /* Frameworks */,
+				C82357A71FD6ADB60014B913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C82357AB1FD6ADB60014B913 /* PBXTargetDependency */,
+			);
+			name = "REBC-demo2UITests";
+			productName = "REBC-demo2UITests";
+			productReference = C82357A91FD6ADB60014B913 /* REBC-demo2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C823577E1FD6ADB60014B913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = zoe;
+				TargetAttributes = {
+					C82357851FD6ADB60014B913 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C823579D1FD6ADB60014B913 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C82357851FD6ADB60014B913;
+					};
+					C82357A81FD6ADB60014B913 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C82357851FD6ADB60014B913;
+					};
+				};
+			};
+			buildConfigurationList = C82357811FD6ADB60014B913 /* Build configuration list for PBXProject "REBC-demo2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C823577D1FD6ADB60014B913;
+			productRefGroup = C82357871FD6ADB60014B913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C82357851FD6ADB60014B913 /* REBC-demo2 */,
+				C823579D1FD6ADB60014B913 /* REBC-demo2Tests */,
+				C82357A81FD6ADB60014B913 /* REBC-demo2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C82357841FD6ADB60014B913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82357961FD6ADB60014B913 /* LaunchScreen.storyboard in Resources */,
+				C82357C81FD912650014B913 /* res in Resources */,
+				C82357931FD6ADB60014B913 /* Assets.xcassets in Resources */,
+				C82357911FD6ADB60014B913 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C823579C1FD6ADB60014B913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82357A71FD6ADB60014B913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27A8BC367DCAD54B250CE825 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-REBC-demo2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		336CF8A50569ED936D066DDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-REBC-demo2/Pods-REBC-demo2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBAE07120D1127742B6BA8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-REBC-demo2/Pods-REBC-demo2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C82357821FD6ADB60014B913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82357991FD6ADB60014B913 /* main.m in Sources */,
+				C823578B1FD6ADB60014B913 /* AppDelegate.m in Sources */,
+				C82357C31FD6B6510014B913 /* Model.m in Sources */,
+				C82357C61FD6BF900014B913 /* HeadView.m in Sources */,
+				C82357C01FD6B6000014B913 /* TableViewCell.m in Sources */,
+				C82357BD1FD6B3C10014B913 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C823579A1FD6ADB60014B913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82357A31FD6ADB60014B913 /* REBC_demo2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82357A51FD6ADB60014B913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82357AE1FD6ADB60014B913 /* REBC_demo2UITests.m in Sources */,
+				C82357CC1FDEAEF40014B913 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C82357A01FD6ADB60014B913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C82357851FD6ADB60014B913 /* REBC-demo2 */;
+			targetProxy = C823579F1FD6ADB60014B913 /* PBXContainerItemProxy */;
+		};
+		C82357AB1FD6ADB60014B913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C82357851FD6ADB60014B913 /* REBC-demo2 */;
+			targetProxy = C82357AA1FD6ADB60014B913 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C823578F1FD6ADB60014B913 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82357901FD6ADB60014B913 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C82357941FD6ADB60014B913 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C82357951FD6ADB60014B913 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C82357B01FD6ADB60014B913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C82357B11FD6ADB60014B913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C82357B31FD6ADB60014B913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC345FCACE059B616BDCFD6E /* Pods-REBC-demo2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REBC-demo2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zoelan.REBC-demo2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C82357B41FD6ADB60014B913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980EA6D44DB24B0D1F6BA03C /* Pods-REBC-demo2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REBC-demo2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zoelan.REBC-demo2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C82357B61FD6ADB60014B913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REBC-demo2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zoelan.REBC-demo2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REBC-demo2.app/REBC-demo2";
+			};
+			name = Debug;
+		};
+		C82357B71FD6ADB60014B913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REBC-demo2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zoelan.REBC-demo2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REBC-demo2.app/REBC-demo2";
+			};
+			name = Release;
+		};
+		C82357B91FD6ADB60014B913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REBC-demo2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zoelan.REBC-demo2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "REBC-demo2";
+			};
+			name = Debug;
+		};
+		C82357BA1FD6ADB60014B913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "REBC-demo2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zoelan.REBC-demo2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "REBC-demo2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C82357811FD6ADB60014B913 /* Build configuration list for PBXProject "REBC-demo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82357B01FD6ADB60014B913 /* Debug */,
+				C82357B11FD6ADB60014B913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82357B21FD6ADB60014B913 /* Build configuration list for PBXNativeTarget "REBC-demo2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82357B31FD6ADB60014B913 /* Debug */,
+				C82357B41FD6ADB60014B913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82357B51FD6ADB60014B913 /* Build configuration list for PBXNativeTarget "REBC-demo2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82357B61FD6ADB60014B913 /* Debug */,
+				C82357B71FD6ADB60014B913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C82357B81FD6ADB60014B913 /* Build configuration list for PBXNativeTarget "REBC-demo2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C82357B91FD6ADB60014B913 /* Debug */,
+				C82357BA1FD6ADB60014B913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C823577E1FD6ADB60014B913 /* Project object */;
+}
